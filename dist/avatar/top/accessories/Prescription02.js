@@ -11,12 +11,12 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
-var uniqueId_1 = require("lodash/uniqueId");
+var uniqueId = require("lodash/uniqueId");
 var Prescription02 = /** @class */ (function (_super) {
     __extends(Prescription02, _super);
     function Prescription02() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.filter1 = uniqueId_1.default('react-filter-');
+        _this.filter1 = uniqueId('react-filter-');
         return _this;
     }
     Prescription02.prototype.render = function () {

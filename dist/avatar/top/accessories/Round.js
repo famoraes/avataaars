@@ -11,13 +11,13 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
-var uniqueId_1 = require("lodash/uniqueId");
+var uniqueId = require("lodash/uniqueId");
 var Round = /** @class */ (function (_super) {
     __extends(Round, _super);
     function Round() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.path1 = uniqueId_1.default('react-path-');
-        _this.filter1 = uniqueId_1.default('react-filter-');
+        _this.path1 = uniqueId('react-path-');
+        _this.filter1 = uniqueId('react-filter-');
         return _this;
     }
     Round.prototype.render = function () {

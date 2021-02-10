@@ -11,18 +11,18 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
-var uniqueId_1 = require("lodash/uniqueId");
+var uniqueId = require("lodash/uniqueId");
 var facialHair_1 = require("./facialHair");
 var HatColor_1 = require("./HatColor");
 var WinterHat2 = /** @class */ (function (_super) {
     __extends(WinterHat2, _super);
     function WinterHat2() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.mask1 = uniqueId_1.default('react-mask-');
-        _this.mask2 = uniqueId_1.default('react-mask-');
-        _this.path1 = uniqueId_1.default('react-path-');
-        _this.path2 = uniqueId_1.default('react-path-');
-        _this.path3 = uniqueId_1.default('react-path-');
+        _this.mask1 = uniqueId('react-mask-');
+        _this.mask2 = uniqueId('react-mask-');
+        _this.path1 = uniqueId('react-path-');
+        _this.path2 = uniqueId('react-path-');
+        _this.path3 = uniqueId('react-path-');
         return _this;
     }
     WinterHat2.prototype.render = function () {

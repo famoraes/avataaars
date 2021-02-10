@@ -11,18 +11,18 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
-var uniqueId_1 = require("lodash/uniqueId");
+var uniqueId = require("lodash/uniqueId");
 var facialHair_1 = require("./facialHair");
 var HairColor_1 = require("./HairColor");
 var ShortHairTheCaesar = /** @class */ (function (_super) {
     __extends(ShortHairTheCaesar, _super);
     function ShortHairTheCaesar() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.filter1 = uniqueId_1.default('react-filter-');
-        _this.mask1 = uniqueId_1.default('react-mask-');
-        _this.mask2 = uniqueId_1.default('react-mask-');
-        _this.path1 = uniqueId_1.default('react-path-');
-        _this.path2 = uniqueId_1.default('react-path-');
+        _this.filter1 = uniqueId('react-filter-');
+        _this.mask1 = uniqueId('react-mask-');
+        _this.mask2 = uniqueId('react-mask-');
+        _this.path1 = uniqueId('react-path-');
+        _this.path2 = uniqueId('react-path-');
         return _this;
     }
     ShortHairTheCaesar.prototype.render = function () {

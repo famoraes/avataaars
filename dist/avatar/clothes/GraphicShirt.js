@@ -11,15 +11,15 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
-var uniqueId_1 = require("lodash/uniqueId");
+var uniqueId = require("lodash/uniqueId");
 var Colors_1 = require("./Colors");
 var Graphics_1 = require("./Graphics");
 var GraphicShirt = /** @class */ (function (_super) {
     __extends(GraphicShirt, _super);
     function GraphicShirt() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.path1 = uniqueId_1.default('react-path-');
-        _this.mask1 = uniqueId_1.default('react-mask-');
+        _this.path1 = uniqueId('react-path-');
+        _this.mask1 = uniqueId('react-mask-');
         return _this;
     }
     GraphicShirt.prototype.render = function () {
