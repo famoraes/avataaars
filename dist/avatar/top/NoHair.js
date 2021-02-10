@@ -11,15 +11,15 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
-var lodash_uniqueid_1 = require("lodash.uniqueid");
+var uniqueId_1 = require("lodash/uniqueId");
 var facialHair_1 = require("./facialHair");
 var NoHair = /** @class */ (function (_super) {
     __extends(NoHair, _super);
     function NoHair() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.filter1 = lodash_uniqueid_1.default('react-filter-');
-        _this.mask1 = lodash_uniqueid_1.default('react-mask-');
-        _this.path1 = lodash_uniqueid_1.default('react-path-');
+        _this.filter1 = uniqueId_1.default('react-filter-');
+        _this.mask1 = uniqueId_1.default('react-mask-');
+        _this.path1 = uniqueId_1.default('react-path-');
         return _this;
     }
     NoHair.prototype.render = function () {
